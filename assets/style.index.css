@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/*Lobster só nos títulos*/
+h1, h2, h3, h4, h5, h6, footer p, footer a {
+  font-family: "Lobster";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Lobster";
+  color: rgb(244, 49, 127);
+  padding: 10px;
+  background-color: #f4f4f4; 
+}
+
+header {
+  background-color:#f9d6d5;
+  border-radius: 6px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Ajusta o aside*/
+#principal {
+  border-radius: 6px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto; 
+}
+
+main img {
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+
+/*Faz que a imagem fique somente dentro do aside*/
+aside img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+
+footer {
+  background-color: #f9d6d5;
+  border-radius: 6px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; 
+}
+
+/* Estiliza o texto do footer */
+footer p {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Lobster", sans-serif; /* Aplica a fonte Lobster ao texto do footer */
+}
+
+/* Estiliza o link do footer */
+footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Lobster", sans-serif; /* Aplica a fonte Lobster aos links do footer */
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column; /* Alinha os itens em uma coluna */
+  gap: 1rem; /* Espaçamento entre os itens do formulário */
+}
+
+/* Formulário */
+form label {
+  font-weight: 500;
+  display: block; /* Faz com que cada label ocupe a linha inteira */
+  margin-bottom: 0.5rem; /* Espaço entre o label e o input */
+}
+
+/* Formulário */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.5rem; /* Espaçamento entre os campos */
+}
+
+/* Estiliza a área de texto do formulário */
+form textarea {
+  resize: vertical; 
+}
+
+/* Botão do formulário */
+form button {
+  cursor: pointer;
+  background-color: rgb(183, 252, 200);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Botão do formulário ao passar o mouse */
+form button:hover {
+  background-color: rgb(233, 0, 0);
+  color: white;
+}
+
+
+/* Estiliza o contato */
+#contato {
+    border-radius: 6px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto; /*Altura */
+  }
+  
+  main {
+    background-color: #f9d6d5;
+    border-radius: 6px;
+    width: 74%;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+  }
+  
+  aside {
+    background-color: #f9d6d5;
+    border-radius: 6px;
+    width: 25%;
+    padding: 15px;
+  }
